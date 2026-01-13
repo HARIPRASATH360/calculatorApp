@@ -17,6 +17,7 @@ class _MyCalcState extends State<MyCalc> {
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width / 5;
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
         home: Scaffold(
       appBar: AppBar(
           backgroundColor: Colors.deepOrange,
